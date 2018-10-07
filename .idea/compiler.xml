@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MyDate" />
+        <module name="assignment03-datumsmanager-FeichtingerSarah" />
         <module name="mydate" />
+        <module name="MyDate" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="assignment03-datumsmanager-FeichtingerSarah" target="10" />
+    </bytecodeTargetLevel>
   </component>
 </project>
